@@ -57,7 +57,7 @@ document.getElementById("third-card").addEventListener("click", function () {
     const productPrice = document.getElementById("fifth-price").value;
     const productQuantity = document.getElementById("fifth-quantity").value;
   
-    //console.log(productName,productPrice,productQuantity);
+    // console.log(productName,productPrice,productQuantity);
   
     const priceTotal = parseInt(productPrice) * parseInt(productQuantity);
   
